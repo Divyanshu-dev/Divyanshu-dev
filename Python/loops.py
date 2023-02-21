@@ -15,10 +15,7 @@
 # print("The sum of squares is: ", sum_)
 
 numbers = [3, 5,4]
-
-
-
-for num in numbers:
+for num in range(int(numbers)):
     sum_init=0
     sum_init=sum_init + num **2
 print("The sum of squares is: ", sum_init)
